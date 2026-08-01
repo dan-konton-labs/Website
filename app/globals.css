@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0B0F17;
+  color: #F3EFE4;
+}
+
+/* Visible keyboard focus everywhere, matches brand gold */
+:focus-visible {
+  outline: 2px solid #F0D28A;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.swirl-glow {
+  background: conic-gradient(
+    from 0deg,
+    #2F8F8A 0deg,
+    #0B0F17 60deg,
+    #C9A35A 140deg,
+    #0B0F17 220deg,
+    #4FB8B1 300deg,
+    #2F8F8A 360deg
+  );
+  filter: blur(60px);
+  opacity: 0.35;
+}
