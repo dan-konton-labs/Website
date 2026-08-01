@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SwirlMark from "../components/SwirlMark";
 
 export default function Home() {
@@ -6,6 +7,15 @@ export default function Home() {
       <SwirlMark />
 
       <div className="mx-auto max-w-2xl text-center animate-fade-up">
+        <Image
+          src="/emblem.png"
+          alt="Konton Labs"
+          width={980}
+          height={1333}
+          className="mx-auto mb-2 w-[280px] sm:w-[340px] h-auto"
+          priority
+        />
+
         <p className="mb-5 inline-block rounded-full border border-gold/30 px-4 py-1 font-body text-xs uppercase tracking-widest text-gold-bright">
           Currently building &mdash; first release later this year
         </p>

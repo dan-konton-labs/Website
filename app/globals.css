@@ -13,7 +13,7 @@ body {
 
 /* Visible keyboard focus everywhere, matches brand gold */
 :focus-visible {
-  outline: 2px solid #F0D28A;
+  outline: 2px solid #EDD493;
   outline-offset: 3px;
   border-radius: 2px;
 }
@@ -33,12 +33,12 @@ body {
 .swirl-glow {
   background: conic-gradient(
     from 0deg,
-    #2F8F8A 0deg,
+    #2B687A 0deg,
     #0B0F17 60deg,
-    #C9A35A 140deg,
+    #BFA46F 140deg,
     #0B0F17 220deg,
-    #4FB8B1 300deg,
-    #2F8F8A 360deg
+    #478A9E 300deg,
+    #2B687A 360deg
   );
   filter: blur(60px);
   opacity: 0.35;

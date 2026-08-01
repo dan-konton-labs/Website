@@ -7,19 +7,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ink: "#0B0F17",       // primary background
-        ink2: "#111827",      // secondary/panel background
+        ink: "#0B0F17",
+        ink2: "#111827",
         gold: {
-          DEFAULT: "#C9A35A",
-          bright: "#F0D28A",
-          dim: "#8A7239",
+          DEFAULT: "#BFA46F",
+          bright: "#EDD493",
+          dim: "#755E35",
         },
         teal: {
-          DEFAULT: "#2F8F8A",
-          bright: "#4FB8B1",
+          DEFAULT: "#2B687A",
+          bright: "#478A9E",
         },
-        parchment: "#F3EFE4", // primary text on dark
-        mist: "#9AA5B1",      // muted text
+        parchment: "#F3EFE4",
+        mist: "#9AA5B1",
       },
       fontFamily: {
         display: ["var(--font-fraunces)", "serif"],
