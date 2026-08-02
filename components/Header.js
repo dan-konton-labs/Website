@@ -29,6 +29,12 @@ export default function Header() {
           >
             About
           </Link>
+          <Link
+            href="/join"
+            className="text-parchment/80 transition-colors hover:text-gold-bright"
+          >
+            Join
+          </Link>
         </nav>
       </div>
     </header>

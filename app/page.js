@@ -31,10 +31,16 @@ export default function Home() {
           actually use, one product at a time.
         </p>
 
-        <div className="mt-10 flex items-center justify-center gap-4 font-body text-sm">
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-4 font-body text-sm">
+          <a
+            href="/join"
+            className="rounded-md bg-gold px-6 py-3 font-medium text-ink transition-colors hover:bg-gold-bright"
+          >
+            Get updates &amp; join the beta
+          </a>
           <a
             href="/about"
-            className="rounded-md bg-gold px-6 py-3 font-medium text-ink transition-colors hover:bg-gold-bright"
+            className="rounded-md border border-white/10 px-6 py-3 font-medium text-parchment/90 transition-colors hover:border-gold-bright hover:text-gold-bright"
           >
             About Konton Labs
           </a>
