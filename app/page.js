@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SwirlMark from "../components/SwirlMark";
+import SignupForm from "../components/SignupForm";
 
 export default function Home() {
   return (
@@ -31,12 +32,14 @@ export default function Home() {
           actually use, one product at a time.
         </p>
 
-        <div className="mt-10 flex items-center justify-center gap-4 font-body text-sm">
+        <SignupForm />
+
+        <div className="mt-6 font-body text-sm">
           <a
             href="/about"
-            className="rounded-md bg-gold px-6 py-3 font-medium text-ink transition-colors hover:bg-gold-bright"
+            className="text-mist/80 underline decoration-mist/30 underline-offset-4 transition-colors hover:text-gold-bright hover:decoration-gold-bright/50"
           >
-            About Konton Labs
+            or read more about Konton Labs
           </a>
         </div>
       </div>
