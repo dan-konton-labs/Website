@@ -7,7 +7,7 @@ export default function Home() {
     <section className="relative flex min-h-[calc(100vh-4rem)] items-center justify-center px-6 py-24">
       <SwirlMark />
 
-      <div className="mx-auto max-w-2xl text-center animate-fade-up">
+      <div className="relative z-10 mx-auto max-w-2xl text-center animate-fade-up">
         <Image
           src="/emblem.png"
           alt="Konton Labs"
